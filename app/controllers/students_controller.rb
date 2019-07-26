@@ -7,7 +7,6 @@ class StudentsController < ApplicationController
 
   def show
     @student = Student.find(params[:id])
-    # @active = Post.find(params[:id])
   end
 
   def activate
