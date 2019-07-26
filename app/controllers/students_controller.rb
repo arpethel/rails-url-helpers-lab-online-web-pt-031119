@@ -6,7 +6,6 @@ class StudentsController < ApplicationController
   end
 
   def show
-    @students = Student.all
     @student = Student.find(params[:id])
     # @active = Post.find(params[:id])
   end
